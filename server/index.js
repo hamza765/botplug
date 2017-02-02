@@ -28,12 +28,12 @@ setInterval(function() {
         if (err)
             console.log(err);
     });
-}, 3600000);
+}, 1800000);
 
-addpoints(function(err) {
-        if (err)
-            console.log(err);
-    });
+// addpoints(function(err) {
+//         if (err)
+//             console.log(err);
+//     });
 
 function addpoints(cb) {
     query(`UPDATE users SET points = points + 1 WHERE username='lazy784'`, function(err, result) {
