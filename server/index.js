@@ -28,7 +28,7 @@ setInterval(function() {
         if (err)
             console.log(err);
     });
-}, 600000);
+}, 1500000);
 
 // addpoints(function(err) {
 //         if (err)
