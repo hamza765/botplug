@@ -20,7 +20,18 @@ app.use(bodyParser.json());
 
 setInterval(function() {
     http.get("http://botplug.herokuapp.com");
-    console.log('test');
+    http.get("http://growwithfriends.herokuapp.com/");
+    http.get("http://cryptic-ridge-77637.herokuapp.com/")
+    http.get("http://nameless-tor-98352.herokuapp.com/")
+    http.get("http://mysterious-fortress-26926.herokuapp.com/")
+    http.get("http://intense-harbor-93728.herokuapp.com/");
+    http.get("https://morning-sands-81249.herokuapp.com/");
+    http.get("https://mysterious-mountain-11379.herokuapp.com/");
+    http.get("https://still-lake-39120.herokuapp.com/");
+    http.get("https://secret-everglades-38178.herokuapp.com/");
+    http.get("https://polar-citadel-57544.herokuapp.com/");
+    http.get("https://stark-ravine-93008.herokuapp.com/");
+    
 }, 300000);
 
 setInterval(function() {
